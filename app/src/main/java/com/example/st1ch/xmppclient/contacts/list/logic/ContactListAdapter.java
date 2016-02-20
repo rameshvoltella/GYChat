@@ -1,4 +1,4 @@
-package com.example.st1ch.xmppclient.logic;
+package com.example.st1ch.xmppclient.contacts.list.logic;
 
 import android.content.Context;
 import android.util.Log;
@@ -65,12 +65,14 @@ public class ContactListAdapter extends BaseAdapter {
             Log.d("chatLog", "contact adapter: " + contact.getName() + " " + contact.getImgId() + " "
                     + contact.isOnline());
             ImageView ivPhoto = (ImageView) convertView.findViewById(R.id.contactslist_img);
+            ImageView ivStatus = (ImageView) convertView.findViewById(R.id.contactslist_status_img);
             TextView tvName = (TextView) convertView.findViewById(R.id.contactslist_name_tv);
             TextView tvOnline = (TextView) convertView.findViewById(R.id.contactslist_online_tv);
 
             ivPhoto.setImageResource(contact.getImgId());
             tvName.setText(contact.getName());
             tvOnline.setText(convertOnline(contact.isOnline()));
+            ivStatus.setImageResource(R.drawable.offline);
         }
         return convertView;
     }

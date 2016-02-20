@@ -16,14 +16,11 @@ import android.widget.ListView;
 import com.example.st1ch.xmppclient.R;
 import com.example.st1ch.xmppclient.chat.activity.ChatActivity;
 import com.example.st1ch.xmppclient.db.ContactDBOpenHelper;
-import com.example.st1ch.xmppclient.logic.ContactListAdapter;
+import com.example.st1ch.xmppclient.contacts.list.logic.ContactListAdapter;
 import com.example.st1ch.xmppclient.logic.FillContactsListTask;
 import com.example.st1ch.xmppclient.user.logic.Contact;
 
-import org.jivesoftware.smack.roster.RosterEntry;
-
 import java.util.ArrayList;
-import java.util.Collection;
 
 /**
  * Created by denys on 23.10.15.

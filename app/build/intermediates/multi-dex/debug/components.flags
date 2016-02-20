@@ -1,7 +1,7 @@
--injars /home/st1ch/AndroidStudioProjects/XMPPClient/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
--outjars /home/st1ch/AndroidStudioProjects/XMPPClient/app/build/intermediates/multi-dex/debug/componentClasses.jar
+-injars 'E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars /home/st1ch/Android/Sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+-libraryjars 'C:\Users\st1ch\AppData\Local\Android\sdk\build-tools\23.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -9,7 +9,7 @@
 -dontusemixedcaseclassnames
 -dontpreverify
 -dontwarn
--printconfiguration /home/st1ch/AndroidStudioProjects/XMPPClient/app/build/intermediates/multi-dex/debug/components.flags
+-printconfiguration 'E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class com.example.st1ch.xmppclient.activity.SplashScreenActivity {

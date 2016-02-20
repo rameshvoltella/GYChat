@@ -276,8 +276,8 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="context_delete">Delete contact</string>
     <string name="resource">Phone</string>
-    <string name="serverIP">192.168.55.161</string>
-    <string name="serviceName">st1ch-notebook</string>
+    <string name="serverIP">192.168.55.156</string>
+    <string name="serviceName">st1ch.com</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_blank">BlankActivity</string>
     <string name="title_activity_chat_screen">ChatScreenActivity</string>

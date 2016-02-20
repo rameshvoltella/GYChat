@@ -20,15 +20,13 @@ import com.example.st1ch.xmppclient.R;
 import com.example.st1ch.xmppclient.chat.activity.ChatActivity;
 import com.example.st1ch.xmppclient.db.ContactDBOpenHelper;
 import com.example.st1ch.xmppclient.logic.ConnectClientTask;
-import com.example.st1ch.xmppclient.logic.ContactListAdapter;
+import com.example.st1ch.xmppclient.contacts.list.logic.ContactListAdapter;
 import com.example.st1ch.xmppclient.user.logic.Contact;
 
 import org.jivesoftware.smack.SmackException;
-import org.jivesoftware.smack.packet.IQ;
 import org.jivesoftware.smack.packet.Presence;
 import org.jivesoftware.smack.roster.Roster;
 import org.jivesoftware.smack.roster.RosterListener;
-import org.jivesoftware.smack.roster.packet.RosterPacket;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -69,6 +67,12 @@ public class ContactsListActivity extends FragmentActivity implements android.su
         cursorAdapter = new SimpleCursorAdapter(this, R.layout.list, null, from, to, 0);
 
         contactsMap = new HashMap<String, Contact>();
+
+        Contact st1ch = new Contact("st1ch@jid", "st1ch");
+        st1ch.setIsOnline(true);
+        st1ch.setImgId(R.mipmap.ic_launcher);
+
+        contactsMap.put("st1ch@jid", st1ch);
 
         contactAdapter = new ContactListAdapter(this, contactsMap);
 

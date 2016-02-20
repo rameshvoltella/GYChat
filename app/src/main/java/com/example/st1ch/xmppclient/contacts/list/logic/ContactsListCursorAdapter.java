@@ -34,6 +34,7 @@ public class ContactsListCursorAdapter extends CursorAdapter {
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
         ImageView ivPhoto = (ImageView) view.findViewById(R.id.contactslist_img);
+        ImageView ivStatus = (ImageView) view.findViewById(R.id.contactslist_status_img);
         TextView tvName = (TextView) view.findViewById(R.id.contactslist_name_tv);
         TextView tvOnline = (TextView) view.findViewById(R.id.contactslist_online_tv);
 
@@ -41,6 +42,7 @@ public class ContactsListCursorAdapter extends CursorAdapter {
         ivPhoto.setImageResource(R.mipmap.icon);
         tvName.setText(name);
         tvOnline.setText("offline");
+        ivStatus.setImageResource(R.drawable.offline);
 
     }
 }
