@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.st1ch.xmppclient"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.st1ch.xmppclient.activity.SplashScreenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.st1ch.xmppclient.activity.ErrorDialog"
+            android:label=""
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.example.st1ch.xmppclient.activity.ConnectToActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.st1ch.xmppclient.VPN.activity.VPNActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.st1ch.xmppclient.chat.activity.ChatActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.st1ch.xmppclient.user.activity.LoginActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.st1ch.xmppclient.activity.ContactListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.st1ch.xmppclient.contacts.list.activity.ContactsListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+
+        <service
+            android:name="com.example.st1ch.xmppclient.service.ServiceConnect"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

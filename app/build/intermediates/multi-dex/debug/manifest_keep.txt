@@ -1,0 +1,15 @@
+-keep class com.example.st1ch.xmppclient.activity.SplashScreenActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.activity.ErrorDialog { <init>(); }
+-keep class com.example.st1ch.xmppclient.activity.ConnectToActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.VPN.activity.VPNActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.chat.activity.ChatActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.user.activity.LoginActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.activity.ContactListActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.contacts.list.activity.ContactsListActivity { <init>(); }
+-keep class com.example.st1ch.xmppclient.service.ServiceConnect { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

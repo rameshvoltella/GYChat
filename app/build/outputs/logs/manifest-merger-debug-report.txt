@@ -1,0 +1,125 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:7:5-49:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:9:9-36
+	android:theme
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.st1ch.xmppclient.activity.SplashScreenActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:13:19-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.st1ch.xmppclient.activity.ErrorDialog
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:20:9-23:59
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:22:13-29
+	android:theme
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:21:13-49
+activity#com.example.st1ch.xmppclient.activity.ConnectToActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:24:9-26:48
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:25:13-55
+activity#com.example.st1ch.xmppclient.VPN.activity.VPNActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:27:9-29:48
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:28:13-53
+activity#com.example.st1ch.xmppclient.chat.activity.ChatActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:30:9-32:48
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:32:13-45
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:31:13-55
+activity#com.example.st1ch.xmppclient.user.activity.LoginActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:33:9-35:48
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:34:13-56
+activity#com.example.st1ch.xmppclient.activity.ContactListActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:36:9-39:15
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:37:13-45
+	android:launchMode
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:38:13-43
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:36:19-63
+activity#com.example.st1ch.xmppclient.contacts.list.activity.ContactsListActivity
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:40:9-43:15
+	android:label
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:41:13-45
+	android:launchMode
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:42:13-43
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:40:19-78
+service#com.example.st1ch.xmppclient.service.ServiceConnect
+ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:45:9-48:47
+	android:enabled
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:47:13-35
+	android:exported
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml:46:13-51
+uses-sdk
+INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Java\AndroidStudioProjects\XMPPClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Java\AndroidStudioProjects\XMPPClient\app\src\main\AndroidManifest.xml

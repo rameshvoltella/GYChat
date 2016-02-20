@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="260dp"
+        android:layout_height="0dp"
+        android:text="Online Only"
+        android:id="@+id/checkOnline"
+        android:layout_weight="0.14" />
+
+    <ListView android:id="@+id/usersList"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:transcriptMode="alwaysScroll"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@android:color/transparent"/>
+
+</LinearLayout>

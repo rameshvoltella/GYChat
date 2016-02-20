@@ -1,0 +1,58 @@
+-injars /home/st1ch/AndroidStudioProjects/XMPPClient/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /home/st1ch/AndroidStudioProjects/XMPPClient/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /home/st1ch/Android/Sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration /home/st1ch/AndroidStudioProjects/XMPPClient/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class com.example.st1ch.xmppclient.activity.SplashScreenActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.activity.ErrorDialog {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.activity.ConnectToActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.VPN.activity.VPNActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.chat.activity.ChatActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.user.activity.LoginActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.activity.ContactListActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.contacts.list.activity.ContactsListActivity {
+    <init>();
+}
+
+-keep class com.example.st1ch.xmppclient.service.ServiceConnect {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

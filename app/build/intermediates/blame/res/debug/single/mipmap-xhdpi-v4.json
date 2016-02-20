@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Java\\AndroidStudioProjects\\XMPPClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\Java\\AndroidStudioProjects\\XMPPClient\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Java\\AndroidStudioProjects\\XMPPClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon.png",
+        "source": "E:\\Java\\AndroidStudioProjects\\XMPPClient\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\home\\st1ch\\AndroidStudioProjects\\XMPPClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\home\\st1ch\\AndroidStudioProjects\\XMPPClient\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\home\\st1ch\\AndroidStudioProjects\\XMPPClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\icon.png",
+        "source": "E:\\home\\st1ch\\AndroidStudioProjects\\XMPPClient\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    }
+]
